@@ -21,7 +21,6 @@ A reinforcement-learning testbed for **tram dispatch scheduling**, paired with a
   - [Train all agents from scratch](#train-all-agents-from-scratch)
 - [Configuration](#configuration)
 - [Reward Function](#reward-function)
-- [Report](#report)
 - [Tech Stack](#tech-stack)
 - [License](#license)
 
