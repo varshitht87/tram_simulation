@@ -1,6 +1,6 @@
 # 🚊 Tram Dispatch RL — 3D Simulator
 
-A reinforcement-learning testbed for **tram dispatch scheduling**, paired with a live, browser-based **3D visualization** built on Streamlit and Three.js. Five controllers — a fixed-time baseline, tabular Q-Learning, Monte Carlo Q-Learning, DDPG, and TD3 — compete to learn *when to dispatch a tram* along a 5-station linear network under realistic morning/evening peak demand.
+A reinforcement-learning testbed for **tram dispatch scheduling**, paired with a live, browser-based **3D visualization** built on Streamlit. Five controllers — a fixed-time baseline, tabular Q-Learning, Monte Carlo Q-Learning, DDPG, and TD3 — compete to learn *when to dispatch a tram* along a 5-station linear network under realistic morning/evening peak demand.
 
 <p align="center">
   <em>Watch trained agents dispatch trams in real time, compare algorithms head-to-head, and inspect the reward function driving every decision.</em>
@@ -170,9 +170,6 @@ reward = R_DELIVERED × passengers_delivered
 
 This is exposed live in the app via the reward decomposition panel, so you can see exactly which term is driving an agent's behavior at any point in the simulation.
 
-## Report
-
-`Reinforcement Learning .pdf` contains the full write-up: environment design rationale, state/action space justification, reward function derivation, and the original experiments the environment and agents were built to match.
 
 ## Tech Stack
 
